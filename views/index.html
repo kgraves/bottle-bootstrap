@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,9 @@
     <title>bottle-bootstrap</title>
 
     <!-- include css here -->
-    <!---------------------->
+    <link rel="stylesheet" href="static/vendor/css/normalize.css">
+    <link rel="stylesheet" href="static/vendor/css/foundation.css">
+    <!--------------------->
   </head>
 
   <body>
@@ -17,6 +19,11 @@
     <h1>herro</h1>
 
     <!-- include js here -->
+    <script src="static/vendor/js/jquery-2.0.3.js"></script>
+    <script src="static/vendor/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
     <!--------------------->
   </body>
 </html>
